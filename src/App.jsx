@@ -1,8 +1,12 @@
+import Body from "./components/Body";
+import Header from "./components/Header";
 
-
-function App() {
+const App = () => {
   return (
-   <h1>Hello World</h1>
+    <div className="min-h-screen bg-stone-50 text-stone-900">
+      <Header />
+      <Body />
+    </div>
   )
 }
 
